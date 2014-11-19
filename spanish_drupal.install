@@ -9,7 +9,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function spanish_install() {
+function spanish_drupal_install() {
   // Makes Drupal standard installation.
   include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
   standard_install();
@@ -18,7 +18,7 @@ function spanish_install() {
   $profilename = drupal_get_profile();
   $function = $profilename . '_profile_details';
   if (function_exists($function)) {
-    $details = spanish_profile_details();
+    $details = spanish_drupal_profile_details();
 
     // Pathauto.
     variable_set('pathauto_update_action', $details['pathauto_update_action']);
@@ -53,7 +53,7 @@ function spanish_install() {
   $editor_role->name = 'editor';
   $editor_role->weight = 1;
   user_role_save($editor_role);
-  user_role_grant_permissions($editor_role->rid, _spanish_get_editor_permissions());
+  user_role_grant_permissions($editor_role->rid, _spanish_drupal_get_editor_permissions());
   // Set this as the administrator role.
   variable_set('user_editor_role', $editor_role->rid);
   // Assign user 1 the "editor" role.
@@ -65,7 +65,7 @@ function spanish_install() {
 /**
  * Create the permissions array for Editor Role.
  */
-function _spanish_get_editor_permissions() {
+function _spanish_drupal_get_editor_permissions() {
   $permissions = array(
     'access administration menu',
     'access administration pages',

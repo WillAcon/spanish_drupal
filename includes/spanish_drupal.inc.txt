@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Implements variables for function spanish_profile_details().
+ * Implements variables for function spanish_drupal_profile_details().
  *
  * Allows the profile to change predefine variables.
  */
-function spanish_variable_set() {
+function spanish_drupal_variable_set() {
   $details['language'] = "es";
   $details['pathauto_update_action'] = 2;
   $details['pathauto_ignore_words'] = 'a, an, as, at, before, but, by, for, from, is, in, into, like, of, off, on, onto, per, since, than, the, this, that, to, up, via, with, ¡, ¿, el, la, con, de, lo, y, del, es, en, como, por, que';
