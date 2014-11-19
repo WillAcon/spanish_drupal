@@ -9,13 +9,13 @@
  *
  * Allows the profile to alter the site configuration form.
  */
-function spanish_drupal_form_install_configure_form_alter(&$form, $form_state) {
+function spanish_form_install_configure_form_alter(&$form, $form_state) {
   // Populate variables.
   $profilename = drupal_get_profile();
   $function = $profilename . '_profile_details';
   if (function_exists($function)) {
     $details = $function();
-    // $details = spanish_drupal_profile_details();
+    // $details = spanish_profile_details();
     // Pre-populate the site name with the server name.
     $form['site_information']['site_name']['#default_value'] = $details['site_name'];
     $form['site_information']['site_mail']['#default_value'] = $details['site_mail'];
@@ -38,14 +38,14 @@ function spanish_drupal_form_install_configure_form_alter(&$form, $form_state) {
     '#required' => TRUE,
   );
 
-  $form['#validate'][] = 'spanish_drupal_file_private_path_validate';
-  $form['#submit'][] = 'spanish_drupal_file_private_path_submit';
+  $form['#validate'][] = 'spanish_file_private_path_validate';
+  $form['#submit'][] = 'spanish_file_private_path_submit';
 }
 
 /**
  * Validate private path as a sumbit validate.
  */
-function spanish_drupal_file_private_path_validate($form, $form_state) {
+function spanish_file_private_path_validate($form, $form_state) {
   $dir = $form_state['values']['file_private_path'];
   if (!file_prepare_directory($dir, FILE_CREATE_DIRECTORY)) {
     if (is_dir($dir)) {
@@ -60,14 +60,14 @@ function spanish_drupal_file_private_path_validate($form, $form_state) {
 /**
  * Set the privte path as a submit action.
  */
-function spanish_drupal_file_private_path_submit($form, $form_state) {
+function spanish_file_private_path_submit($form, $form_state) {
   variable_set('file_private_path', $form_state['values']['file_private_path']);
 }
 
 /**
  * Allow profile to pre-select the language, skipping the selection.
  */
-function spanish_drupal_profile_details() {
+function spanish_profile_details() {
   $details['language'] = "es";
   $details['pathauto_update_action'] = 2;
   $details['pathauto_ignore_words'] = 'a, an, as, at, before, but, by, for, from, is, in, into, like, of, off, on, onto, per, since, than, the, this, that, to, up, via, with, ¡, ¿, el, la, con, de, lo, y, del, es, en, como, por, que';
