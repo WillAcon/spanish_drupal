@@ -45,6 +45,22 @@ function spanish_drupal_install() {
       'shortcut.links' => 1,
     );
     variable_set('admin_menu_components', $admin_menu);
+
+    $enable = array(
+    'theme_default' => 'bootstrap_drupal',
+    'admin_theme' => 'rubik',
+   );
+  theme_enable($enable);
+  foreach ($enable as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+  if (module_exists('overlay')) {
+    module_disable(array('overlay'));
+    drupal_uninstall_modules(array('overlay'));
+  }
+  
   }
 
   // Create a editor role for site editors,
