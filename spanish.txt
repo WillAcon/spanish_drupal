@@ -75,6 +75,10 @@ projects[] = facetapi_pretty_paths
 projects[] = module_filter
 projects[] = globalredirect
 
+; 
+projects[] = google_captcha
+projects[] = variable
+
 
 
 
