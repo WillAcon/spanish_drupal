@@ -35,6 +35,7 @@ dependencies[] = devel
 dependencies[] = diff
 dependencies[] = dhtml_menu
 dependencies[] = ds
+dependencies[] = ds_ui
 dependencies[] = entity
 dependencies[] = entityreference
 dependencies[] = features
