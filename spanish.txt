@@ -78,6 +78,8 @@ projects[] = globalredirect
 ; 
 projects[] = google_captcha
 projects[] = variable
+projects[] = field_group
+
 
 
 
