@@ -30,6 +30,7 @@ projects[] = pathauto
 projects[] = entity
 projects[] = entityreference
 ;projects[token][patch][] = "http://drupal.org/files/token-token_asort_tokens-1712336_0.patch"
+projects[] = token
 projects[] = transliteration
 projects[] = views
 projects[] = admin_menu
