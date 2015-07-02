@@ -82,7 +82,7 @@ projects[] = variable
 projects[] = field_group
 projects[] = bootstrap_library
 projects[] = token
-
+projects[] = fontawesome
 
 ; themes
 projects[] = bootstrap
@@ -110,14 +110,18 @@ libraries[cloud-zoom][download][type] = "file"
 libraries[cloud-zoom][download][url] = "http://www.professorcloud.com/downloads/cloud-zoom.1.0.3.zip"
 libraries[cloud-zoom][destination] = "libraries"
 
-
+; awesome
+libraries[fontawesome][type] = "libraries"
+libraries[fontawesome][download][type] = "file"
+libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.3.0.zip"
+libraries[fontawesome][destination] = "libraries"
 
 ;Chosen included in chosen.make
 
 ;Nivo slider
 libraries[nivo-slider][type] = "libraries"
 libraries[nivo-slider][download][type] = "git"
-libraries[nivo-slider][download][url] = "https://github.com/df-williams/spanish_drupal.git"
+libraries[nivo-slider][download][url] = "https://github.com/gilbitron/Nivo-Slider.git"
 libraries[nivo-slider][destination] = "libraries"
 
 ;bootstrap
@@ -125,3 +129,6 @@ libraries[bootstrap][type] = "libraries"
 libraries[bootstrap][download][type] = "git"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip"
 libraries[bootstrap][destination] = "libraries"
+
+
+
