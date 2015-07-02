@@ -83,6 +83,7 @@ projects[] = field_group
 projects[] = bootstrap_library
 projects[] = token
 projects[] = fontawesome
+projects[] = webform_layout
 
 ; themes
 projects[] = bootstrap
