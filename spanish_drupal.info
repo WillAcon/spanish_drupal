@@ -68,6 +68,7 @@ dependencies[] = skinr
 dependencies[] = skinr_ui
 dependencies[] = field_group
 dependencies[] = fontawesome
+dependencies[] = ember_support
 
 ; Information added by Drupal.org packaging script on 2014-09-17
 version = "7.x-1.4"
