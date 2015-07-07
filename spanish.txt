@@ -77,7 +77,7 @@ projects[] = module_filter
 projects[] = globalredirect
 
 ; 
-projects[] = google_captcha
+projects[] = google_recaptcha
 projects[] = variable
 projects[] = field_group
 projects[] = bootstrap_library
