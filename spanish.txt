@@ -88,7 +88,8 @@ projects[] = webform_layout
 ; themes
 projects[] = bootstrap
 projects[] = tao
-projects[] = rubik
+;projects[] = rubik
+projects[] = ember
 projects[bootstrap_drupal][type] = theme
 projects[bootstrap_drupal][download][type] = "git"
 projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal.git"
