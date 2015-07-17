@@ -81,7 +81,6 @@ projects[] = google_recaptcha
 projects[] = variable
 projects[] = field_group
 projects[] = bootstrap_library
-projects[] = token
 projects[] = fontawesome
 projects[] = webform_layout
 projects[] = ember_support
