@@ -95,7 +95,7 @@ projects[bootstrap_drupal][download][type] = "git"
 projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal.git"
 
 ; PLUPLOAD
-libraries[plupload][download][type] = "get"
+libraries[plupload][download][type] = "file"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
 libraries[plupload][directory_name] = "plupload"
 libraries[plupload][destination] = "libraries"
@@ -128,7 +128,7 @@ libraries[nivo-slider][destination] = "libraries"
 
 ;bootstrap
 libraries[bootstrap][type] = "libraries"
-libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][download][type] = "file"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip"
 libraries[bootstrap][destination] = "libraries"
 
