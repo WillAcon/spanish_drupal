@@ -85,6 +85,23 @@ projects[] = fontawesome
 projects[] = webform_layout
 projects[] = ember_support
 
+;add 19/07
+projects[] = languageicons
+projects[] = media_vimeo
+projects[] = media_youtube
+projects[] = remember_me
+projects[] = wowjs
+projects[] = animate_css
+projects[] = image_link_formatter
+projects[] = linkimagefield
+projects[] = rules
+projects[] = search_api
+projects[] = search_api_db
+projects[] = search_api_sorts
+projects[] = shorten
+
+
+
 ; themes
 projects[] = bootstrap
 projects[] = tao
