@@ -146,5 +146,15 @@ libraries[bootstrap][download][type] = "file"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/releases/download/v3.3.5/bootstrap-3.3.5-dist.zip"
 libraries[bootstrap][destination] = "libraries"
 
+;animate
+libraries[animate][type] = "libraries"
+libraries[animate][download][type] = "file"
+libraries[animate][download][url] = "https://github.com/daneden/animate.css.git"
+libraries[animate][destination] = "libraries"
 
+;wow
+libraries[wow][type] = "libraries"
+libraries[wow][download][type] = "file"
+libraries[wow][download][url] = "https://github.com/matthieua/WOW.git"
+libraries[wow][destination] = "libraries"
 
