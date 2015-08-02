@@ -97,6 +97,8 @@ projects[] = linkimagefield
 projects[] = rules
 projects[] = blockanimate
 
+;02/08
+projects[] = navbar
 
 
 
