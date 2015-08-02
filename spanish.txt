@@ -95,6 +95,7 @@ projects[] = animate_css
 projects[] = image_link_formatter
 projects[] = linkimagefield
 projects[] = rules
+projects[] = blockanimate
 
 
 
