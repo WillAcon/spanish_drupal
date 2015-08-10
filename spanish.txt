@@ -100,6 +100,8 @@ projects[] = blockanimate
 ;02/08
 projects[] = navbar
 
+;10/08
+projects[] = menu_block
 
 
 ; themes
