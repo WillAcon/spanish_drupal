@@ -8,8 +8,9 @@ projects[] = drupal
 
 ; Profile Spanish Drupal
 projects[spanish_drupal][type] = "profile"
-projects[spanish_drupal][download][type] = "git"
-projects[spanish_drupal][download][url] = "https://github.com/df-williams/spanish_drupal.git"
+projects[spanish_drupal][download][type] = "file"
+projects[spanish_drupal][download][url] = "https://github.com/df-williams/spanish_drupal/archive/master.zip"
+
 ; Modules
 projects[] = backup_migrate
 projects[]= captcha
@@ -48,10 +49,7 @@ projects[] = webform
 projects[] = jquery_update
 projects[] = xmlsitemap
 projects[] = javascript_libraries
-projects[views_slideshow][type] = module
-projects[views_slideshow][download][type] = "git"
-projects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow.git"
-
+projects[] = views_slideshow
 
 projects[] = redirect
 projects[] = metatag
@@ -109,15 +107,12 @@ projects[] = bootstrap
 projects[] = tao
 ;projects[] = rubik
 projects[] = ember
-projects[bootstrap_drupal][type] = theme
-projects[bootstrap_drupal][download][type] = "git"
-projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal.git"
 
-; PLUPLOAD
-libraries[plupload][download][type] = "file"
-libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_4.zip"
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][destination] = "libraries"
+projects[bootstrap_drupal][type] = theme
+projects[bootstrap_drupal][download][type] = "file"
+projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal/archive/master.zip"
+projects[bootstrap_drupal][destination] = "sites/dafault/themes"
+
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
@@ -134,15 +129,15 @@ libraries[cloud-zoom][destination] = "libraries"
 ; awesome
 libraries[fontawesome][type] = "libraries"
 libraries[fontawesome][download][type] = "file"
-libraries[fontawesome][download][url] = "http://fortawesome.github.io/Font-Awesome/assets/font-awesome-4.4.0.zip"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/master.zip"
 libraries[fontawesome][destination] = "libraries"
 
 ;Chosen included in chosen.make
 
 ;Nivo slider
 libraries[nivo-slider][type] = "libraries"
-libraries[nivo-slider][download][type] = "git"
-libraries[nivo-slider][download][url] = "https://github.com/gilbitron/Nivo-Slider.git"
+libraries[nivo-slider][download][type] = "file"
+libraries[nivo-slider][download][url] = "https://github.com/gilbitron/Nivo-Slider/archive/master.zip"
 libraries[nivo-slider][destination] = "libraries"
 
 ;bootstrap
@@ -154,12 +149,11 @@ libraries[bootstrap][destination] = "libraries"
 ;animate
 libraries[animate][type] = "libraries"
 libraries[animate][download][type] = "file"
-libraries[animate][download][url] = "https://github.com/daneden/animate.css.git"
+libraries[animate][download][url] = "https://github.com/daneden/animate.css/archive/master.zip"
 libraries[animate][destination] = "libraries"
 
 ;wow
 libraries[wow][type] = "libraries"
 libraries[wow][download][type] = "file"
-libraries[wow][download][url] = "https://github.com/matthieua/WOW.git"
+libraries[wow][download][url] = "https://github.com/matthieua/WOW/archive/master.zip"
 libraries[wow][destination] = "libraries"
-
