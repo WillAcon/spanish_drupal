@@ -49,7 +49,10 @@ projects[] = webform
 projects[] = jquery_update
 projects[] = xmlsitemap
 projects[] = javascript_libraries
-projects[] = views_slideshow
+
+projects[views_slideshow][type] = module
+projects[views_slideshow][download][type] = "file"
+projects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow/archive/master.zip"
 
 projects[] = redirect
 projects[] = metatag
