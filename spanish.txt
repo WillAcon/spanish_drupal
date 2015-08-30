@@ -100,6 +100,7 @@ projects[] = navbar
 
 ;10/08
 projects[] = menu_block
+projects[] = owlcarousel
 
 
 ; themes
