@@ -105,6 +105,8 @@ projects[] = navbar
 projects[] = menu_block
 projects[] = owlcarousel
 
+;10/09
+projects[] = file_entity
 
 ; themes
 projects[] = bootstrap
