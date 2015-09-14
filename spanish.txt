@@ -108,6 +108,10 @@ projects[] = owlcarousel
 ;10/09
 projects[] = file_entity
 
+;14/09
+projects[] = browserclass
+projects[] = clientside_validation
+
 ; themes
 projects[] = bootstrap
 projects[] = tao
