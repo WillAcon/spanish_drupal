@@ -114,9 +114,9 @@ projects[] = clientside_validation
 
 ; themes
 projects[] = bootstrap
-projects[] = tao
+;projects[] = tao
 ;projects[] = rubik
-projects[] = ember
+;projects[] = ember
 
 projects[bootstrap_drupal][type] = theme
 projects[bootstrap_drupal][download][type] = "file"
