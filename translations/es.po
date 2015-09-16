@@ -1,10 +1,10 @@
-# Spanish translation of Drupal core (7.38)
+# Spanish translation of Drupal core (7.39)
 # Copyright (c) 2015 by the Spanish translation team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal core (7.38)\n"
-"POT-Creation-Date: 2015-06-20 06:58+0000\n"
+"Project-Id-Version: Drupal core (7.39)\n"
+"POT-Creation-Date: 2015-08-22 07:43+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -2512,7 +2512,7 @@ msgstr "Integra contenido sindicado (canales de noticias RSS, RDF y Atom)."
 msgid "Alias"
 msgstr "Alias"
 msgid "Account settings"
-msgstr "Configuación de la cuenta"
+msgstr "Configuración de la cuenta"
 msgid "The content type %name has been deleted."
 msgstr "Se ha eliminado el tipo de contenido %name."
 msgid "Deleted content type %name."
