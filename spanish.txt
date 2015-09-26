@@ -114,6 +114,7 @@ projects[] = clientside_validation
 
 ;26/09
 projects[] = menu_badges
+projects[] = link_badges
 
 ; themes
 projects[] = bootstrap
