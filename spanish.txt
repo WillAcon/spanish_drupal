@@ -112,6 +112,9 @@ projects[] = file_entity
 projects[] = browserclass
 projects[] = clientside_validation
 
+;26/09
+projects[] = menu_badges
+
 ; themes
 projects[] = bootstrap
 ;projects[] = tao
