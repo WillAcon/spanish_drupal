@@ -113,8 +113,11 @@ projects[] = browserclass
 projects[] = clientside_validation
 
 ;26/09
-projects[] = menu_badges
-projects[] = link_badges
+;projects[] = menu_badges
+;projects[] = link_badges
+
+;29/09
+projects[] = rabbit_hole
 
 ; themes
 projects[] = bootstrap
