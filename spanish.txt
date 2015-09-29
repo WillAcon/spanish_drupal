@@ -121,6 +121,7 @@ projects[] = rabbit_hole
 
 ; themes
 projects[] = bootstrap
+projects[] = adminimal_theme
 ;projects[] = tao
 ;projects[] = rubik
 ;projects[] = ember
