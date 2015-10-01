@@ -119,6 +119,7 @@ projects[] = clientside_validation
 ;29/09
 projects[] = rabbit_hole
 projects[] = adminimal_admin_menu
+projects[] = prlp
 
 ; themes
 projects[] = bootstrap
