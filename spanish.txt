@@ -90,7 +90,7 @@ projects[] = ember_support
 projects[] = languageicons
 projects[] = media_vimeo
 projects[] = media_youtube
-projects[] = remember_me
+;projects[] = remember_me
 projects[] = wowjs
 projects[] = animate_css
 projects[] = image_link_formatter
@@ -120,6 +120,9 @@ projects[] = clientside_validation
 projects[] = rabbit_hole
 projects[] = adminimal_admin_menu
 projects[] = prlp
+
+;02/10
+projects[] = rename_admin_paths
 
 ; themes
 projects[] = bootstrap
