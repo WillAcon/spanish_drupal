@@ -136,7 +136,6 @@ projects[bootstrap_drupal][download][type] = "file"
 projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal/archive/master.zip"
 projects[bootstrap_drupal][destination] = "sites/dafault/themes"
 
-
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.4.6/ckeditor_4.4.6_full.zip"
