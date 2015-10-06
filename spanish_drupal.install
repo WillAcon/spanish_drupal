@@ -45,6 +45,7 @@ function spanish_drupal_install() {
       'shortcut.links' => 1,
     );
     variable_set('admin_menu_components', $admin_menu);
+    variable_set('file_temporary_path', 'tmp/');
 /* $enable = array(
     'theme_default' => 'bootstrap_drupal', 
    );
