@@ -71,7 +71,7 @@ dependencies[] = field_group
 dependencies[] = fontawesome
 dependencies[] = ember_support
 ;dependencies[] = navbar
-dependencies[] = l10n_client
+;dependencies[] = l10n_client
 dependencies[] = l10n_update
 dependencies[] = mediafield
 
