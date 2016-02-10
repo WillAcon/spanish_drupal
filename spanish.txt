@@ -123,6 +123,7 @@ projects[] = prlp
 
 ;02/10
 projects[] = rename_admin_paths
+projects[] = yoast_seo
 
 ; themes
 projects[] = bootstrap
