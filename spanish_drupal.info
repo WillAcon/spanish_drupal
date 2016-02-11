@@ -74,6 +74,7 @@ dependencies[] = ember_support
 ;dependencies[] = l10n_client
 dependencies[] = l10n_update
 dependencies[] = mediafield
+dependencies[] = imce_mkdir
 
 ; Information added by Drupal.org packaging script on 2014-09-17
 version = "7.x-1.4"
