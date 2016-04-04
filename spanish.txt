@@ -50,9 +50,9 @@ projects[] = jquery_update
 projects[] = xmlsitemap
 projects[] = javascript_libraries
 
-projects[views_slideshow][type] = module
-projects[views_slideshow][download][type] = "file"
-projects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow/archive/master.zip"
+;projects[views_slideshow][type] = module
+;projects[views_slideshow][download][type] = "file"
+;sprojects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow/archive/master.zip"
 
 projects[md_slider][type] = module
 projects[md_slider][download][type] = "file"
@@ -62,7 +62,7 @@ projects[] = redirect
 projects[] = metatag
 projects[] = less
 projects[] = honeypot
-projects[] = nivo_slider
+;projects[] = nivo_slider
 projects[] = mailsystem
 projects[] = mimemail
 projects[] = cloud_zoom
@@ -169,11 +169,7 @@ libraries[fontawesome][destination] = "libraries"
 
 ;Chosen included in chosen.make
 
-;Nivo slider
-libraries[nivo-slider][type] = "libraries"
-libraries[nivo-slider][download][type] = "file"
-libraries[nivo-slider][download][url] = "https://github.com/gilbitron/Nivo-Slider/archive/master.zip"
-libraries[nivo-slider][destination] = "libraries"
+
 
 ;bootstrap
 libraries[bootstrap][type] = "libraries"
