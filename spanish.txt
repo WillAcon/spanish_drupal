@@ -54,6 +54,10 @@ projects[views_slideshow][type] = module
 projects[views_slideshow][download][type] = "file"
 projects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow/archive/master.zip"
 
+projects[md_slider][type] = module
+projects[md_slider][download][type] = "file"
+projects[md_slider][download][url] = "https://github.com/df-williams/md_slider/archive/master.zip"
+
 projects[] = redirect
 projects[] = metatag
 projects[] = less
