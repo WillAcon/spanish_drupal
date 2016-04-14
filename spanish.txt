@@ -9,7 +9,7 @@ projects[] = drupal
 ; Profile Spanish Drupal
 projects[spanish_drupal][type] = "profile"
 projects[spanish_drupal][download][type] = "file"
-projects[spanish_drupal][download][url] = "https://github.com/df-williams/spanish_drupal/archive/master.zip"
+projects[spanish_drupal][download][url] = "https://github.com/WillAcon/spanish_drupal/archive/master.zip"
 
 ; Modules
 projects[] = backup_migrate
@@ -52,11 +52,11 @@ projects[] = javascript_libraries
 
 ;projects[views_slideshow][type] = module
 ;projects[views_slideshow][download][type] = "file"
-;sprojects[views_slideshow][download][url] = "https://github.com/df-williams/views_slideshow/archive/master.zip"
+;sprojects[views_slideshow][download][url] = "https://github.com/WillAcon/views_slideshow/archive/master.zip"
 
 projects[md_slider][type] = module
 projects[md_slider][download][type] = "file"
-projects[md_slider][download][url] = "https://github.com/df-williams/md_slider/archive/master.zip"
+projects[md_slider][download][url] = "https://github.com/WillAcon/md_slider/archive/master.zip"
 
 projects[] = redirect
 projects[] = metatag
@@ -146,7 +146,7 @@ projects[] = adminimal_theme
 
 projects[bootstrap_drupal][type] = theme
 projects[bootstrap_drupal][download][type] = "file"
-projects[bootstrap_drupal][download][url] = "https://github.com/df-williams/bootstrap_drupal/archive/master.zip"
+projects[bootstrap_drupal][download][url] = "https://github.com/WillAcon/bootstrap_drupal/archive/master.zip"
 projects[bootstrap_drupal][destination] = "sites/default/themes"
 
 ; CKEditor
