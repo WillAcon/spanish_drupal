@@ -136,6 +136,9 @@ projects[] = imce_mkdir
 projects[] = icon
 projects[] = menu_icons
 
+;18/04
+projects[] = bean
+
 
 ; themes
 projects[] = bootstrap
