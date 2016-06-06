@@ -103,7 +103,7 @@ projects[] = rules
 projects[] = blockanimate
 
 ;02/08
-projects[] = navbar
+;projects[] = navbar
 
 ;10/08
 projects[] = menu_block
@@ -158,11 +158,6 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
-; Cloud Zoom
-libraries[cloud-zoom][type] = "libraries"
-libraries[cloud-zoom][download][type] = "file"
-libraries[cloud-zoom][download][url] = "http://www.professorcloud.com/downloads/cloud-zoom.1.0.3.zip"
-libraries[cloud-zoom][destination] = "libraries"
 
 ; awesome
 libraries[fontawesome][type] = "libraries"
@@ -171,8 +166,6 @@ libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awe
 libraries[fontawesome][destination] = "libraries"
 
 ;Chosen included in chosen.make
-
-
 
 ;bootstrap
 libraries[bootstrap][type] = "libraries"
