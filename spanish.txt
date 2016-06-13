@@ -20,7 +20,6 @@ projects[] = ctools
 projects[] = devel
 projects[] = dhtml_menu
 projects[] = ds
-projects[] = ds_extras
 projects[] = filefield_paths
 projects[] = imce
 projects[] = i18n
